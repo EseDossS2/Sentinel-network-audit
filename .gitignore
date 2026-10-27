@@ -1,0 +1,15 @@
+# Entorno virtual (pesado e innecesario en el repo, cada quien crea el suyo)
+venv/
+
+# Linea base real de tu red (contiene tus IPs y MACs reales)
+analysis/baseline.json
+
+# Reportes generados (contienen tus datos reales de red)
+reports/*.html
+
+# Archivos temporales de Python
+__pycache__/
+*.pyc
+
+# Archivos de configuracion de VS Code (opcional, personal)
+.vscode/
